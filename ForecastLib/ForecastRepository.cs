@@ -15,7 +15,7 @@ namespace ForecastLib
 
         public ForecastRepository()
         {
-
+            _forecasts.Add(new Forecast { id = 1, temp = 10, humidity = 20, date = DateTime.Now });
         }
 
         public Forecast Add(Forecast forecast)
